@@ -1,1 +1,30 @@
-hkeugfbemn
+GIT HUB STEPS
+OPEN VS CODE > TERMINAL
+ clone https://github.com/23MIS0127/<repo name>
+PS C:\Users\User> cd <repo name>
+PS C:\Users\User\SAMPLE> code .
+
+NEW WINDOW WILL OPEN
+
+Check Current Status
+git status — Shows current changes and branch status.
+4. Create a New Branch (recommended)
+git checkout -b <branch-name> — Creates and switches to a new branch for your work.
+5. Make Changes
+(Edit files in your code editor) — Modify or add project files.
+6. Add Changes to Staging
+git add . — Adds all modified/new files to the staging area.
+7. Commit Changes
+git commit -m "your message" — Saves changes with a message explaining what you did.
+8. Pull Latest Changes (avoid conflicts)
+git pull origin main — Updates your branch with the latest changes from remote.
+9. Push Your Changes
+git push origin <branch-name> — Uploads your committed changes to the remote repository.
+10. Merge (if needed)
+git checkout main — Switches to main branch.
+git merge <branch-name> — Merges your branch into main.
+11. Final Push
+git push origin main — Updates the main branch on the remote repository.
+
+💡 Shortcut flow (most important for exams):
+clone → cd → branch → add → commit → pull → push
